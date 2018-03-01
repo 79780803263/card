@@ -1,0 +1,72 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 280px;
+    min-height: 280px;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 14px;
+    font-family: "Arial", sans-serif;
+    line-height: 1.2;
+    background: #ecf0f1;
+}
+
+/*
+Все размеры, отступы, координаты, размеры шрифтов (не заданные в body) кратны 5 или 10.
+Адрес картинки-спрайта:
+/assets/course14/social-challenge.png
+*/
+
+.card {
+    width: 200px;
+    /* height:                 не нужен, пусть растягивается контентом */
+    color: #fff;
+    padding: 20px;
+    background: #1abc9c; 
+}
+
+.card .align-caption {
+    font-size: 20px;
+    /* padding: 0 10px;         сдвигаем как угодно */
+    /* text-align: right;       или влево, по центру, вправо */
+    /* border: 1px solid #f00;  смотрим границы */
+}
+
+.card p {
+    margin: 20px 0 25px;
+}
+
+.container-social {
+    width: 100%;
+    font-size: 0;
+    /* text-align: center;      группа иконок: влево, по центру, вправо*/      
+    /* border: 1px solid #f00;  смотрим границы */
+}
+.container-social .social:last-child {
+    margin-right: 0;
+}
+
+.container-social .social {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+    margin-right: 9px;
+    background: #16a085 url("social-challenge.png") no-repeat ;
+}
+
+.container-social .social-fb{
+    background-position: 0 0;
+}
+.container-social .social-tw{
+    /* width: 35px;               иконки могут быть разного размера */
+    /* height: 35px;  */
+    background-position: -30px 0;
+}
+.container-social .social-gg{
+    background-position: -60px 0;
+}
