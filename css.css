@@ -26,7 +26,8 @@ body {
     /* height:                 не нужен, пусть растягивается контентом */
     color: #fff;
     padding: 20px;
-    background: #1abc9c; 
+    background: #1abc9c;
+    box-shadow: 0 0 5px 0 #000;
 }
 
 .card .align-caption {
@@ -36,14 +37,14 @@ body {
     /* border: 1px solid #f00;  смотрим границы */
 }
 
-.card p {
+.card .card-content {
     margin: 20px 0 25px;
 }
 
 .container-social {
     width: 100%;
     font-size: 0;
-    /* text-align: center;      группа иконок: влево, по центру, вправо*/      
+    /* text-align: center;      группа иконок: влево, по центру, вправо*/
     /* border: 1px solid #f00;  смотрим границы */
 }
 .container-social .social:last-child {
